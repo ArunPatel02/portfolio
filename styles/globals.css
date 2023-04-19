@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -23,4 +27,82 @@ a {
     color: white;
     background: black;
   }
+}
+
+.custom_menu_icon {
+  overflow: hidden;
+}
+
+.custom_menu_icon .dot {
+  transition: all 0.2s ease-in-out;
+}
+
+.custom_menu_icon.active .dot {
+  opacity: 0;
+}
+
+.custom_menu_icon:hover .dot-top {
+  transform: translateY(-0.25rem);
+  opacity: 0;
+}
+.custom_menu_icon:hover .dot-bottom {
+  transform: translateY(0.25rem);
+  opacity: 0;
+}
+.custom_menu_icon:hover .dot-left {
+  transform: translateX(-0.25rem);
+  opacity: 0;
+}
+.custom_menu_icon:hover .dot-right {
+  transform: translateX(0.25rem);
+  opacity: 0;
+}
+
+.custom_menu_icon:hover .dot-center {
+  transform: scaleX(1.1);
+  opacity: 0;
+}
+
+.custom-plus {
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.custom-plus div {
+  height: 75%;
+  transition: all 0.3s ease-in-out 0.01s;
+}
+
+.custom_menu_icon:hover .custom-plus {
+  opacity: 1;
+}
+
+.custom_menu_icon.active .custom-plus {
+  opacity: 1;
+  rotate: 45deg;
+}
+
+.custom_menu_icon:hover .custom-plus div {
+  height: 100%;
+}
+
+.custom_menu_icon.active .custom-plus div {
+  height: 100%;
+}
+
+.parent-streght{
+  font-family: cursive;
+}
+
+.parent-streght .stregth {
+  display: inline-block;
+  -webkit-transform: scale(1.5, 1);
+  transition: all .2s ease-in-out;
+  margin-right: 17px;
+  transform-origin: left;
+}
+
+.parent-streght:hover .stregth {
+  -webkit-transform: scale(1, 1);
+  margin-right: 0px;
 }
