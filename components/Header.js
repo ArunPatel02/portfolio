@@ -122,8 +122,8 @@ export default function Header() {
               !menuOpen ? "" : "delay-300"
             } ${menuOpen ? "opacity-100 translate-y-4" : ""}`}
           >
-            <a href="https://www.linkedin.com/in/arun-patel-542924219/" target="_blank" className="parent-streght cursor-pointer">Linkedin</a>
-            <a href="https://github.com/ArunPatel02" target="_blank" className="parent-streght cursor-pointer">Github</a>
+            <a href="https://www.linkedin.com/in/arun-patel-542924219/" target="_blank" rel="noreferrer" className="parent-streght cursor-pointer">Linkedin</a>
+            <a href="https://github.com/ArunPatel02" target="_blank" rel="noreferrer" className="parent-streght cursor-pointer">Github</a>
             {/* <p className="parent-streght cursor-pointer">Instagram</p> */}
           </li>
         </ul>
