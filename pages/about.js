@@ -4,7 +4,7 @@ import { CustomContext } from "./AppContext";
 import boy from "../components/boy.png";
 import { HiDownload } from "react-icons/hi"
 
-const about = () => {
+const About = () => {
   const { setmenuOpen, menuOpen } = useContext(CustomContext);
   return (
     <div className="flex justify-center flex-col lg:flex-row items-center min-h-screen relative gap-5">
@@ -54,4 +54,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

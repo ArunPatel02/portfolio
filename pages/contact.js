@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { CustomContext } from "./AppContext";
 
-const contact = ({ data }) => {
+const Contact = ({ data }) => {
   const { setmenuOpen, menuOpen, menuRef } = useContext(CustomContext);
   return (
     <div className="flex justify-center items-center min-h-screen relative p-4">
@@ -43,4 +43,4 @@ export async function getServerSideProps() {
   return { props: { data: "this is data" } };
 }
 
-export default contact;
+export default Contact;

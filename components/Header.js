@@ -39,8 +39,8 @@ export default function Header() {
       <nav className="max-w-[1300px] w-full">
         <ul className="flex justify-between">
           <li className="flex gap-4 items-center">
-            <Svg width="40" height="45" viewBox="0 0 79 64" />
-            <p className="text-2xl font-medium">Arun Patel</p>
+          <Link href="/" ><span className="cursor-pointer"><Svg width="40" height="45" viewBox="0 0 79 64" /></span></Link>
+          <Link href="/"><p className="text-2xl font-medium font-['Mr Dafoe', sans] cursor-pointer">Arun Patel</p></Link>
           </li>
           <li>
             {/* <div className="w-8 h-full flex py-3 flex-col justify-between">

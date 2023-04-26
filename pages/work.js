@@ -3,7 +3,7 @@ import { CustomContext } from "./AppContext";
 import { useParallax, Parallax } from "react-scroll-parallax";
 import ParralexCustom from "../components/ParralexCustom";
 
-const work = ({ data }) => {
+const Work = ({ data }) => {
   //   const { setmenuOpen, menuOpen, menuRef } = useContext(CustomContext);
   //   useEffect(() => {
   //     setmenuOpen(false);
@@ -156,4 +156,4 @@ export async function getServerSideProps() {
   return { props: { data: "this is data" } };
 }
 
-export default work;
+export default Work;
