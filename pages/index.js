@@ -9,7 +9,8 @@ export default function Home() {
         <title>Arun Patel - Portlfolio</title>
         <meta name="description" content="Arun Patel Portlfolio" />
         <meta property="og:title" content="Arun Patel"></meta>
-        <meta property="og:description" content="Offering rich application to our customers."></meta>
+        <meta property="keywords" content="MERN STACK developer,React Native developer,Full Stack Web developer,Full Stack Android developer,Full Stack Engineer" ></meta>
+        <meta property="og:description" content="MERN STACK developer & React Native developer || Full Stack Web developer || Full Stack Android developer || Full Stack Engineer"></meta>
         <meta property="og:image" content="https://arun-patel-portfolio.vercel.app/thumbnail_256.png"></meta>
         <meta property="og:url" content="https://arun-patel-portfolio.vercel.app"></meta>
         <link rel="icon" href="/ArunLogo.svg" />
