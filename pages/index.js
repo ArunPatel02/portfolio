@@ -1,13 +1,21 @@
 import Head from "next/head";
 import HomePage from "../components/HomePage";
 import Script from "next/script";
+import Work from "./work";
+import Contact from "./contact";
+import WorkPage from "../components/WorkPage";
+import About from "./about";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual'
+  }, []);
   return (
-    <div className="p-0 m-0 bg-[#ffff]">
-       <Head>
+    <div className="p-0 m-0 bg-[#ffff] scroll-container">
+      <Head>
         <title>Arun Patel - Portlfolio</title>
-        <meta name="description" content="Arun Patel Portlfolio" />
+        <meta name="description" content="Arun Patel Portfolio" />
         <meta property="og:title" content="Arun Patel"></meta>
         <meta property="keywords" content="MERN STACK developer,React Native developer,Full Stack Web developer,Full Stack Android developer,Full Stack Engineer" ></meta>
         <meta property="og:description" content="MERN STACK developer & React Native developer || Full Stack Web developer || Full Stack Android developer || Full Stack Engineer"></meta>
@@ -21,6 +29,9 @@ export default function Home() {
       </Head>
       <Script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></Script>
       <HomePage />
+      <WorkPage />
+      <About />
+      <Contact />
     </div>
   );
 }

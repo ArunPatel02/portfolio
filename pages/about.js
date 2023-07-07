@@ -29,27 +29,21 @@ const About = () => {
           className={`text-xl mt-4 transition-[opacity transform] duration-300 ${menuOpen ? "" : "delay-300"
             } ${menuOpen ? "-translate-y-4 opacity-0" : ""}`}
         >
-          I am a Full Stack Engineer based in India. I have developed many types
-          of full-stack application.In Informatics, dummy data is benign
-          information that does not contain any useful data, but serves to
-          reserve space where real data is nominally present. Dummy data can be
-          used as a placeholder for both testing and operational purposes.
+          Highly skilled and innovative software Engineer with 1.8+ years Of hands-on experience in web application development. Focused and efficient learner with practical expertise in native apps, seeking a full stack developer position with Intelletec.
         </p>
-        <div
-          className={`flex mx-4 gap-2 items-end cursor-pointer text-xl mt-3 transition-[opacity transform] duration-300 ${menuOpen ? "" : "delay-300"
-            } ${menuOpen ? "-translate-y-4 opacity-0 " : ""}`}
-        > <HiDownload />
-          <p className="underline cursor-pointer">resume</p>
+        <div> <a href='myresume.pdf' download className={`flex mx-4 gap-2 items-end cursor-pointer text-xl mt-3 transition-[opacity transform] duration-300 ${menuOpen ? "" : "delay-300"
+          } ${menuOpen ? "-translate-y-4 opacity-0 " : ""}`}><HiDownload className="translate-y-1" />
+          <p className="underline cursor-pointer">resume</p></a>
         </div>
         {/* <br />
         <br /> */}
       </div>
-      <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute top-[18%] left-[11%]"></div>
+      {/* <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute top-[18%] left-[11%]"></div>
       <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute top-[13%] right-[22%]"></div>
       <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute top-[25%] right-[10%]"></div>
       <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute bottom-[28%] left-[20%]"></div>
       <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute bottom-[8%] left-[32%]"></div>
-      <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute bottom-[23%] right-[18%]"></div>
+      <div className="bg-[#f2f5f8] w-[clamp(70px,10vw,140px)] rounded aspect-[4/3] absolute bottom-[23%] right-[18%]"></div> */}
     </div>
   );
 };
